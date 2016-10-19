@@ -40,7 +40,7 @@ var
 
 // Styles
 gulp.task('styles', function() {
-  return sass(src+'/styles/main.scss', {})
+  return sass(src+'/styles/main.scss', {sourcemap: true, style: 'compact'})
     .pipe(sourcemaps.init())
     .pipe(autoprefixer())
     .pipe(gulp.dest(dist+'/styles'))
@@ -87,7 +87,7 @@ gulp.task('images', function() {
 
 // Clean
 gulp.task('clean', function() {
-  // return del([dist+'/styles', dist+'/scripts', dist+'/images']);
+  return del([dist+'/styles', dist+'/scripts', dist+'/images']);
 });
 
 // Default task
