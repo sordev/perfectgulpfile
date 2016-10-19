@@ -33,7 +33,7 @@ var
     url = '',
     // watch files
     // ex **/* for all files, *.css for css files etc.
-    files = ['pub/rumble/**/*','*.php'],
+    files = [],
     // distribution destination
     dist = '';
 
