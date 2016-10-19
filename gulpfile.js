@@ -1,6 +1,6 @@
 /*!
  * gulp
- * $ npm install gulp-ruby-sass gulp-autoprefixer gulp-cssnano gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-cache del gulp.spritesmith browser-sync --save-dev
+ * $ npm install gulp-ruby-sass gulp-autoprefixer gulp-cssnano gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-cache del gulp.spritesmith browser-sync gulp-sourcemaps --save-dev
  */
 
 // Load plugins
